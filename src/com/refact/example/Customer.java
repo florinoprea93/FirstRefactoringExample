@@ -14,7 +14,7 @@ public class Customer {
         this._name = name;
     }
 
-    public String getName() {
+    private String getName() {
         return _name;
     }
 

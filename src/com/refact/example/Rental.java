@@ -10,7 +10,7 @@ public class Rental {
         this._daysRented = daysRented;
     }
 
-    public Movie getMovie() {
+    Movie getMovie() {
         return _movie;
     }
 
@@ -26,11 +26,11 @@ public class Rental {
         this._daysRented = daysRented;
     }
 
-    public double getCharge() {
+    double getCharge() {
         return _movie.getCharge(_daysRented);
     }
 
-    public int getFrequentRentalPoints() {
+    int getFrequentRentalPoints() {
         return _movie.getFrequentRentalPoints(_daysRented);
 
     }
